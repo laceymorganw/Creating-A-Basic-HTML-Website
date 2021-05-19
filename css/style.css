@@ -64,7 +64,7 @@ h3 {
     }
 
 /*Overwrite the text color and shadow for the h3 on the contact page*/
-#h3 {
+#contact-h3 {
     color: black;
     text-shadow: none;
     }
@@ -124,7 +124,6 @@ img {
 
 .overlay {
     position: absolute;
-    cursor: pointer;
     top: 0;
     bottom: 0;
     left: 0;
@@ -133,6 +132,7 @@ img {
     margin-left: 2px;
     height: 336px;
     width: 500px;
+    cursor: pointer;
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
@@ -162,6 +162,7 @@ iframe {
     width: 1280px; /*make a note of hard coding the width as px vs %*/
     margin-left: auto;
     margin-right: auto;
+    border: none;
     border-radius: 20px;
     display: table;
     justify-content: center;
@@ -170,14 +171,8 @@ iframe {
 footer{
     border-top: 5px solid #0b6f81;
     border-bottom: 5px solid #0b6f81;
-    margin: 10px;
-    }
-
-.footerfixed{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
+    margin-top: 50px;
     }
 
 table{
