@@ -5,7 +5,7 @@ get students used to commenting their code and why they should.*/
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto&display=swap');
 
 body{
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 /*NAV BAR*/
@@ -13,7 +13,7 @@ li{
     display: inline;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
-    color:rgb(255, 255, 255);
+    color:#ffffff;
     font-size: 20px;
     font-weight: 700;
     text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.5);
@@ -23,11 +23,14 @@ li{
     background-color: #fb8500;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #navBorder{
     padding-bottom: 10px;
-    border-bottom: 3px solid #219ebc;
+    border-bottom: 3px solid #ffffff;
 }
 
 li:hover{
@@ -41,13 +44,13 @@ a:link{
 
 /*HEADERS*/
 h1, h2, h3 {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Itim', cursive;
     text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    color: rgb(4, 67, 78);
     font-size: 60px;
     }
 
@@ -57,17 +60,15 @@ h1 {
 }
 
 @keyframes colortext{
-    0%{color: rgb(255, 255, 255);}
-    100%{color:rgb(4, 67, 78);}
+    0%{color: white;}
+    100%{color: rgb(4, 67, 78);}
 }
 
 h2 {
-    color: rgb(255, 255, 255);
     font-size: 45px;
     }    
 
 h3 {
-    color: rgb(255, 255, 255);
     font-size: 30px;
     }
 
@@ -80,10 +81,12 @@ h3 {
 /*BODY CONTENT*/
 
 .container {
-    background-color:rgb(0, 188, 221);
-    border-radius: 20px;
+    background-color: #0FA3B1;
+    background-size: 100% !important;
     margin-top: 50px; /*margin top and bottom will add space between the 
     divs so they don't sit directly on top of eachother*/
+    margin-left: -10px;
+    margin-right: -10px;
     margin-bottom: 50px;
     padding-top: 5px; /* padding will add an inline space so the 
     elements don't sit on the edge of the div*/
@@ -181,10 +184,12 @@ footer{
     background-color: #fb8500;
     position: sticky;
     bottom: 0;
-    left: 0;
-    width: 100%;
     margin-top: 50px;
+    margin-right: -10px;
+    margin-left:-10px;
+
     }
+
 
 table{
     margin: 10px;
@@ -221,7 +226,7 @@ input{
   to blue from black when clicked on*/
 input:focus{
     box-sizing: border-box;
-    border-bottom: 3px solid #0b6f81;
+    border-bottom: 3px solid rgb(0, 188, 221);
     color: #000000;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -238,7 +243,7 @@ input:after{
 }
 
 input[type=button], input[type=submit] {
-    background-color: #0b6f81;
+    background-color: rgb(0, 188, 221);
     border: none;
     border-radius: 5px;
     font-family:'Roboto', sans-serif;
@@ -251,7 +256,7 @@ input[type=button], input[type=submit] {
   }
 
 input[type=button], input[type=submit]:hover {
-    background-color:#042f36;
+    background-color:#02181b;
 }
 
 label{
@@ -269,6 +274,7 @@ textarea {
     border-radius: 4px;
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    color: rgb(165, 165, 165);
     font-size: 15px;
     resize:both;
   }
@@ -278,7 +284,7 @@ textarea {
   textarea:focus{
     box-sizing: border-box;
     color: black;
-    border: 3px solid #0b6f81;
+    border: 3px solid rgb(0, 188, 221);
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
